@@ -11,6 +11,12 @@
 		<script src="js/drawimageprop.js"></script>
 		<script src="js/stackblur.min.js"></script>
 		<script src="js/element-background-image-blur.js"></script>
+
+		<style>
+			.head {
+				background-color: rgba(255, 255, 255, 0.25);
+			}
+		</style>
 	</head>
 	<body>
 		<section class="hero is-fullheight main">
@@ -71,6 +77,16 @@
 				$(this).toggleClass('is-active');
 				menu.toggleClass('is-active');
 			});
+
+			$(window).load(function() {
+				var Blur = new ElementBackgroundImageBlur('background', 'bg_img', 'blur', 10);
+				Blur.render();
+
+				$(window).resize(function() {
+					Blur.render();
+				});
+			});
+
 		</script>
 	</body>
 </html>
