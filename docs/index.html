@@ -90,13 +90,13 @@
 
 						<div id="nav-menu" class="nav-right nav-menu">
 							<span class="nav-item">
-								<a class="button is-primary is-inverted" href="#">
+								<a class="button is-primary is-inverted" href="https://github.com/Elizabwth/element-background-image-blur/">
 									<span class="icon">
 										<i class="fa fa-github"></i>
 									</span>
 									<span>Github<span>
 								</a>
-								<a class="button is-primary is-inverted" href="#">
+								<a class="button is-primary is-inverted" href="https://raw.githubusercontent.com/Elizabwth/element-background-image-blur/master/element-background-image-blur.js">
 									<span class="icon">
 										<i class="fa fa-download"></i>
 									</span>
@@ -145,6 +145,8 @@
 				menu.toggleClass('is-active');
 			});
 
+
+			// here's where the magic happens
 			$(window).load(function() {
 				var Blur = new ElementBackgroundImageBlur('background', 'bg_img', 'blur', 10);
 				Blur.render();
