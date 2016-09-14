@@ -19,11 +19,10 @@ you want to have an image background, assign them IDs.
 args: canvas id, image id, elements to blur class name, blur ammount
 ```javascript
 var Blur = new ElementBackgroundImageBlur('background', 'bg_img', 'this-will-have-a-blurred-backdrop', 10);
-	Blur.render();
+Blur.render();
 
-	$(window).resize(function() {
-		Blur.render();
-	});
+$(window).resize(function() {
+	Blur.render();
 });
 ```
 
