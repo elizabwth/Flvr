@@ -26,6 +26,6 @@ $(window).resize(function() {
 });
 ```
 
-### Using
+### Requires
 * [StackBlur by flozz](https://github.com/flozz/StackBlur)
 * [drawImageProp by Ken Fyrstenberg Nilsen](http://stackoverflow.com/a/21961894/3839159)
