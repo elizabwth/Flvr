@@ -10,8 +10,6 @@ you want to have an image background, assign them IDs.
   <div class="blur">
     lorem ipsum dolor
   </div>
-  
-  <img id="bg_img" src="myimage.jpg">
   <canvas id="background"></canvas>
 </div>
 ```
