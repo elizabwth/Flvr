@@ -1,10 +1,8 @@
-# Element Background Image Blur
-Blur behind your elements with an image backdrop in real time.
+# Blvr (Background Video Element Blur)
+Blur behind your elements with an video backdrop in real time.
 Name suggestions are very welcome.
 
 ### Usage
-Place image and canvas elements inside the element
-you want to have an image background, assign them IDs.
 ```html
 <div id="my_container">
   <div class="blur">
