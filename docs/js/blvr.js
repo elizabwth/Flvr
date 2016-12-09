@@ -3,7 +3,7 @@ function Blvr(canvas_id, container_id, blur_class, blur_amount, video_source) {
 	self.canvas = document.getElementById(canvas_id);
 	self.container = $("#"+container_id);
 	self.blur_amount = blur_amount;
-	self.blur_class = blur_class;
+	self.blur_class = "."+blur_class;
 
 	self.renderer = PIXI.autoDetectRenderer(256, 112, {view: self.canvas, transparent: true});
 	self.stage = new PIXI.Container();
