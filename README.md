@@ -14,8 +14,7 @@ Name suggestions are very welcome.
 
 args: canvas id, container id, elements to blur class name, blur ammount, video source
 ```javascript
-var blvr = new Blvr('background', 'my_container', 'blur', 20,
-					"path/to/video.mp4");
+var blvr = new Blvr('background', 'my_container', 'blur', 20, "path/to/video.mp4");
 blvr.render();
 ```
 
