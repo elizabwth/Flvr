@@ -2,74 +2,20 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title>
-	    	Blvr Demo
-	    </title>
+			Flvr Demo
+		</title>
 
-	    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.min.css">
-	    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-	    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster">
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster|Roboto|Raleway|Yesteryear">
+		<link rel="stylesheet" href="css/flvr.css">
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.2.2/pixi.min.js"></script>
-		<script src="js/blvr.js"></script>
+		<script src="js/flvr.js"></script>
 
 		<style>
-			.main {
-				background-color: rgba(0, 0, 0, 0);
-			}
-
-			.head {
-				background-color: rgba(255, 255, 255, 0.5);
-			}
-
-			.hero .nav {
-				box-shadow: none;
-			}
-
-			.brand {
-				font-family: 'Lobster', cursive;
-				font-size: 24px;
-				color: black;
-			}
-
-			.nav-item a, a.nav-item {
-				color: black;
-			}
-
-			.button.is-primary.is-inverted {
-				background-color: rgba(0, 0, 0, .5);
-				color: white;
-			}
-
-			.button.is-primary.is-inverted:hover {
-				background-color: black;
-			}
-
-			.about {
-				background-color: rgba(0, 0, 0, 0);
-			}
-
-			.about .about-text {
-				align-items: center;
-				justify-content: center;
-				font-size: 12px;
-			}
-
-			.about .about-text .text {
-				padding: 1rem;
-				color: white;
-				text-transform: uppercase;
-				font-weight: normal;
-
-				background-color: rgba(0, 0, 0, 0.25);
-			}
-
-			.footer {
-				padding: 40px 20px 40px;
-			}
-
-			#background {
+			#head_bg {
 				z-index: -1;
 				position: absolute;
 				top: 0;
@@ -79,13 +25,13 @@
 		</style>
 	</head>
 	<body>
-		<section id="main" class="hero is-fullheight main">
-			<div class="hero-head head blur">
+		<section id="main" class="hero flvr-hero">
+			<div class="hero-head blur">
 				<div class="container">
 					<nav class="nav">
 						<div class="nav-left">
 							<a class="nav-item is-brand brand" href="#">
-								Blur Demo
+								Flvr Demo
 							</a>
 						</div>
 
@@ -97,13 +43,13 @@
 
 						<div id="nav-menu" class="nav-right nav-menu">
 							<span class="nav-item">
-								<a class="button is-primary is-inverted" href="https://github.com/Elizabwth/blvr/">
+								<a class="button is-inverted" href="https://github.com/Elizabwth/flvr/">
 									<span class="icon">
 										<i class="fa fa-github"></i>
 									</span>
 									<span>Github<span>
 								</a>
-								<a class="button is-primary is-inverted" href="https://raw.githubusercontent.com/Elizabwth/blvr/master/docs/js/blvr.js">
+								<a class="button is-inverted" href="https://raw.githubusercontent.com/Elizabwth/flvr/master/docs/js/flvr.js">
 									<span class="icon">
 										<i class="fa fa-download"></i>
 									</span>
@@ -116,19 +62,50 @@
 			</div>
 
 			<div class="hero-body">
-				<div class="container has-text-centered about">
-
-					<div class="columns is-gapless about-text">
-						<div class="column"></div>
-						<div class="column has-text-left text blur">
-							Two thing separate those who succeed, from those who fall by the wayside. 1--you have to be absolutely ruthless, down to the bone. Two--rich parents. My dad’s rich. I have a rich dad. My dad’s a mid-level executive at an insurance company that does bad things. My dad had the law made so that there was a gag order and no one could know about how my dad didnt pay for these faulty products... only me and my dad’s friends know because my dad bragged about it.
+				<div class="container has-text-left">
+					<div class="columns is-vcentered">
+						<div class="column">
+							<span class="title blur">
+								Flvr Adds Flavour
+							</span>
+							<br>
+							<span class="subtitle blur">
+								I did a bad thing.
+							</span>
 						</div>
-						<div class="column"></div>
+
+						<div class="column is-3 flvr-head-info-box blur">
+							Flvr takes your boring background videos and spices them up. 
+							Leveraging <a href="http://www.pixijs.com/">PixiJS</a> v4 and <a href="http://web2.0.shithouse.tv/">WebGL</a>, 
+							we can create something utterly revolting, fast.<br>
+							Let's get rolling.
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<canvas id="background"></canvas>
+			<div class="hero-foot">
+				<div class="container">
+					<nav class="tabs blur">
+						<ul>
+							<li class="is-active">
+								<a href="/">Introduction</a>
+							</li>
+							<li>
+								<a href="/">Example 1</a>
+							</li>
+							<li>
+								<a href="/">Example 2</a>
+							</li>
+							<li>
+								<a href="/">Example 3</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<canvas id="head_bg"></canvas>
 		</section>
 
 		<footer class="footer">
@@ -152,9 +129,7 @@
 			});
 
 			$(document).ready(function() {
-				var blvr = new Blvr('background', 'main', 'blur', 10,
-									"vid/Into-The-Woods.mp4");
-				blvr.render();
+				new Flvr('head_bg', 'main', 'blur', 10, "vid/Ground-Zero.mp4");
 			});
 
 		</script>

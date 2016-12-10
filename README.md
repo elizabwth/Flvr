@@ -1,6 +1,5 @@
-# Blvr (Background Video Element Blur)
+# Flvr (Background Video Element Blur)
 Blur behind your elements with an video backdrop in real time.
-Name suggestions are very welcome.
 
 ### Usage
 ```html
@@ -14,9 +13,7 @@ Name suggestions are very welcome.
 
 args: canvas id, container id, elements to blur class name, blur ammount, video source
 ```javascript
-var blvr = new Blvr('background', 'my_container', 'blur', 20,
-					"/static/res/video/umbrella.mp4");
-blvr.render();
+new Flvr('background', 'my_container', 'blur', 20, "/static/res/video/umbrella.mp4");
 ```
 
 ### Requires

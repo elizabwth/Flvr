@@ -1,0 +1,64 @@
+a {
+	color: #F359B0;
+
+}
+
+a:hover {
+	color: #F3597A;
+}
+
+.hero {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.hero-head {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+a.brand {
+	color: black;
+	font-family: 'Yesteryear', cursive;
+	font-size: 1.8rem;
+}
+
+.hero-body {
+	//font-family: 'Raleway';
+}
+
+.hero-body .title {
+	color: white;
+}
+
+.hero-body .subtitle {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.flvr-head-info-box {
+	margin: 2.4rem 0;
+	padding: 1rem;
+
+	font-size: 1rem;
+	color: white;
+
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.hero-foot .tabs {
+	color: black;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.hero-foot .tabs li.is-active a {
+	color: #F359B0;
+	border-bottom: 3px solid #F359B0;
+}
+
+.hero-foot .tabs li a {
+	color: white;
+	border-bottom: 3px solid transparent;
+}
+
+.hero-foot .tabs li a:hover {
+	color: #F3597A;
+}
