@@ -19,3 +19,9 @@ new Flvr('background', 'my_container', 'blur', 20, "path/to/video.mp4");
 ### Requires
 * [PixiJS v4](http://www.pixijs.com/)
 * jQuery
+
+### Videos
+
+https://github.com/elizabwth/Flvr/blob/133ab9b7f84dfceb3b2d3cecf433774d315e06b5/demo-2016-12-08_13-12-13.webm
+
+https://github.com/elizabwth/Flvr/blob/133ab9b7f84dfceb3b2d3cecf433774d315e06b5/demo-2016-11-08_15-08-07.webm
