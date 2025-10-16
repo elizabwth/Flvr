@@ -1,4 +1,4 @@
-# Before the CSS Blur Filter Came Around, I nade this
+# Before the CSS Blur Filter Came Around, I made this
 # Flvr (Background Video Element Blur)
 Blur behind your elements with an video backdrop in real time.
 
